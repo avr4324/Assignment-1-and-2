@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #56ab2f, #a8e063);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+.health-goals-section {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.health-goals-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.health-goals-section form {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.health-goals-section label {
+    font-size: 1rem;
+}
+
+.health-goals-section input[type="text"],
+.health-goals-section input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.health-goals-section input[type="submit"] {
+    background-color: #56ab2f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.health-goals-section input[type="submit"]:hover {
+    background-color: #fff;
+    color: #56ab2f;
+}
+
+.health-progress {
+    margin-bottom: 40px;
+}
+
+.health-progress h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.progress-item {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.progress-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.progress-bar .progress {
+    height: 100%;
+    background-color: #56ab2f;
+    border-radius: 25px;
+    transition: width 0.4s ease;
+}
+
+.progress-item p {
+    font-size: 1.2rem;
+}
+
+.quote-section {
+    margin-top: 50px;
+}
+
+.quote-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.quote-section p {
+    font-size: 1.5rem;
+    font-style: italic;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 1rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    background: #56ab2f;
+    border-radius: 25px;
+}
+
+footer a:hover {
+    background-color: #fff;
+    color: #56ab2f;
+}

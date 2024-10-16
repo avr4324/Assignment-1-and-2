@@ -1,0 +1,145 @@
+/* Global Reset and General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.goal-section {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.goal-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.goal-section form {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.goal-section label {
+    font-size: 1rem;
+}
+
+.goal-section input[type="text"],
+.goal-section input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.goal-section input[type="submit"] {
+    background-color: #ff5e62;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.goal-section input[type="submit"]:hover {
+    background-color: #fff;
+    color: #ff5e62;
+}
+
+.progress-section {
+    margin-bottom: 40px;
+}
+
+.progress-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.progress-item {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.progress-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.progress-bar .progress {
+    height: 100%;
+    background-color: #ff5e62;
+    border-radius: 25px;
+}
+
+.progress-item p {
+    font-size: 1.2rem;
+}
+
+.quote-section {
+    margin-top: 50px;
+}
+
+.quote-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.quote-section p {
+    font-size: 1.5rem;
+    font-style: italic;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    background: #ff5e62;
+    border-radius: 25px;
+}
+
+footer a:hover {
+    background-color: #fff;
+    color: #ff5e62;
+}

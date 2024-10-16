@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relationships - Personal Growth Tracker</title>
+    <link rel="stylesheet" href="relationships.css">
+</head>
+<body>
+    <header>
+        <h1>Relationships</h1>
+        <p>Set your relationship goals and track your progress!</p>
+    </header>
+
+    <section class="relationship-section">
+        <h2>Set Your Relationship Goals</h2>
+        <form>
+            <label for="relationship-goal">Enter your relationship goal (e.g., spend more time with family, strengthen friendships):</label><br>
+            <input type="text" id="relationship-goal" name="relationship-goal" placeholder="Your relationship goal..." required><br><br>
+
+            <label for="deadline">Set a completion date:</label><br>
+            <input type="date" id="deadline" name="deadline" required><br><br>
+
+            <input type="submit" value="Add Goal">
+        </form>
+    </section>
+
+    <section class="goal-progress">
+        <h2>Current Relationship Progress</h2>
+        <div class="progress-item">
+            <h3>Family Time</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 60%;"></div>
+            </div>
+            <p>Progress: 60% - Goal: Spend more weekends with family</p>
+        </div>
+
+        <div class="progress-item">
+            <h3>Friendship</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 40%;"></div>
+            </div>
+            <p>Progress: 40% - Goal: Connect with friends monthly</p>
+        </div>
+    </section>
+
+    <section class="quote-section">
+        <h2>Motivational Quote</h2>
+        <p>"The most important thing in communication is hearing what isn't said." – Peter Drucker</p>
+    </section>
+
+    <footer>
+        <a href="index.html" class="back-home">Back to Home</a>
+    </footer>
+</body>
+</html>

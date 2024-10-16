@@ -1,0 +1,117 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e3f2fd;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #1976d2;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* Form Styles */
+form {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px; /* Limit width for better appearance */
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #1976d2; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #115293; /* Darker blue on hover */
+}
+
+/* Goals Progress Section */
+h2 {
+    margin: 20px 0;
+}
+
+.progress-item {
+    margin: 20px 0;
+    background-color: #ffffff; /* White background for progress items */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+    background-color: #ddd; /* Light gray background for the progress bar */
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+.progress {
+    background-color: #1976d2; /* Blue color for the filled portion */
+    height: 100%;
+    border-radius: 5px;
+}
+
+/* Quote Section */
+.quote-section {
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.quote-section p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.back-home {
+    color: #1976d2; /* Blue color for the link */
+    text-decoration: none;
+}
+
+.back-home:hover {
+    text-decoration: underline; /* Underline on hover */
+}

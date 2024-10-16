@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3e5f5;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #8e24aa;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+form {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="date"] {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #8e24aa; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #6a1b9a;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+.progress-item {
+    margin: 20px 0;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+.progress {
+    background-color: #8e24aa;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+.quote-section {
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.quote-section p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.back-home {
+    color: #8e24aa;
+    text-decoration: none;
+}
+
+

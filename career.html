@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Goals - Personal Growth Tracker</title>
+    <link rel="stylesheet" href="career.css">
+</head>
+<body>
+    <header>
+        <h1>Career Goals</h1>
+        <p>Set your career objectives and track your progress!</p>
+    </header>
+
+    <section class="career-section">
+        <h2>Set Your Career Goals</h2>
+        <form>
+            <label for="career-goal">Enter your career goal (e.g., get a promotion, switch careers):</label><br>
+            <input type="text" id="career-goal" name="career-goal" placeholder="Your career goal..." required><br><br>
+
+            <label for="deadline">Set a completion date:</label><br>
+            <input type="date" id="deadline" name="deadline" required><br><br>
+
+            <input type="submit" value="Add Goal">
+        </form>
+    </section>
+
+    <section class="goal-progress">
+        <h2>Your Career Progress</h2>
+        <div class="progress-item">
+            <h3>Get Promoted</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 60%;"></div>
+            </div>
+            <p>Progress: 60% - Goal: Achieve a managerial position</p>
+        </div>
+
+        <div class="progress-item">
+            <h3>Networking Skills</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 40%;"></div>
+            </div>
+            <p>Progress: 40% - Goal: Attend 5 networking events</p>
+        </div>
+
+        <div class="progress-item">
+            <h3>Skill Development</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 20%;"></div>
+            </div>
+            <p>Progress: 20% - Goal: Complete advanced project management course</p>
+        </div>
+    </section>
+
+    <section class="quote-section">
+        <h2>Motivational Quote</h2>
+        <p>"The future depends on what you do today." – Mahatma Gandhi</p>
+    </section>
+
+    <footer>
+        <a href="index.html">Back to Home</a>
+    </footer>
+</body>
+</html>

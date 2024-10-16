@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Goals - Personal Growth Tracker</title>
+    <link rel="stylesheet" href="fitness.css">
+</head>
+<body>
+    <header>
+        <h1>Fitness Goals</h1>
+        <p>Track your progress and stay motivated on your fitness journey!</p>
+    </header>
+
+    <section class="goal-section">
+        <h2>Set Your Fitness Goals</h2>
+        <form>
+            <label for="goal">Enter your goal (e.g., run 5 km, lift 100 lbs):</label><br>
+            <input type="text" id="goal" name="goal" placeholder="Your fitness goal..." required><br><br>
+
+            <label for="deadline">Set a deadline:</label><br>
+            <input type="date" id="deadline" name="deadline" required><br><br>
+
+            <input type="submit" value="Add Goal">
+        </form>
+    </section>
+
+    <section class="progress-section">
+        <h2>Your Fitness Progress</h2>
+        <div class="progress-item">
+            <h3>Running</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 60%;"></div>
+            </div>
+            <p>Progress: 60% - Goal: 5 km</p>
+        </div>
+
+        <div class="progress-item">
+            <h3>Strength Training</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 45%;"></div>
+            </div>
+            <p>Progress: 45% - Goal: Lift 100 lbs</p>
+        </div>
+
+        <div class="progress-item">
+            <h3>Yoga & Flexibility</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%;"></div>
+            </div>
+            <p>Progress: 70% - Goal: 30 Days of Yoga</p>
+        </div>
+    </section>
+
+    <section class="quote-section">
+        <h2>Motivational Quote</h2>
+        <p>"The only bad workout is the one that didn’t happen."</p>
+    </section>
+
+    <footer>
+        <a href="index.html">Back to Home</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,147 @@
+/* Global Reset and General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #3a6186, #89253e);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hobby-section {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.hobby-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.hobby-section form {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hobby-section label {
+    font-size: 1rem;
+}
+
+.hobby-section input[type="text"],
+.hobby-section input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hobby-section input[type="submit"] {
+    background-color: #89253e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.hobby-section input[type="submit"]:hover {
+    background-color: #fff;
+    color: #89253e;
+}
+
+.hobby-progress {
+    margin-bottom: 40px;
+}
+
+.hobby-progress h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.progress-item {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.progress-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.progress-bar .progress {
+    height: 100%;
+    background-color: #89253e;
+    border-radius: 25px;
+    transition: width 0.4s ease;
+}
+
+.progress-item p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.quote-section {
+    margin-top: 50px;
+}
+
+.quote-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.quote-section p {
+    font-size: 1.5rem;
+    font-style: italic;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    background: #89253e;
+    border-radius: 25px;
+}
+
+footer a:hover {
+    background-color: #fff;
+    color: #89253e;
+}

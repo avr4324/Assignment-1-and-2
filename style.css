@@ -1,0 +1,154 @@
+/* Global Reset and General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e6f7ff; /* Light blue background for a calming effect */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    color: #ff6347;
+}
+
+p {
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    color: #555;
+}
+
+nav {
+    margin-bottom: 30px;
+}
+
+.horizontal-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.horizontal-menu li {
+    display: inline;
+}
+
+.horizontal-menu a {
+    display: inline-block;
+    background-color: #ff6347; /* Tomato color for buttons */
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 1.1rem;
+}
+
+.horizontal-menu a:hover {
+    background-color: #ff4500; /* Darker hover effect */
+    transform: translateY(-3px);
+}
+
+.info-below-nav {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    max-width: 700px;
+}
+
+.info-below-nav h2 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.info-below-nav p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.introduction {
+    margin-bottom: 30px;
+}
+
+.info-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.info-box p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+.quote-section {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.quote-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.quote-section p {
+    font-size: 1.4rem;
+    font-style: italic;
+    max-width: 700px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.benefits {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.benefits h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.benefits ul {
+    list-style: none;
+    font-size: 1.3rem;
+    line-height: 1.8;
+}
+
+.benefits li {
+    margin-bottom: 10px;
+}

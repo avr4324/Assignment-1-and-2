@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Goals - Personal Growth Tracker</title>
+    <link rel="stylesheet" href="learning.css">
+</head>
+<body>
+    <header>
+        <h1>Learning Goals</h1>
+        <p>Set your learning objectives and track your progress!</p>
+    </header>
+
+    <section class="learning-section">
+        <h2>Set Your Learning Goals</h2>
+        <form>
+            <label for="learning-goal">Enter your learning goal (e.g., learn Python, complete a design course):</label><br>
+            <input type="text" id="learning-goal" name="learning-goal" placeholder="Your learning goal..." required><br><br>
+
+            <label for="deadline">Set a completion date:</label><br>
+            <input type="date" id="deadline" name="deadline" required><br><br>
+
+            <input type="submit" value="Add Goal">
+        </form>
+    </section>
+
+    <section class="course-progress">
+        <h2>Course Progress</h2>
+        <div class="progress-item">
+            <h3>Learn Python</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%;"></div>
+            </div>
+            <p>Progress: 70% - Goal: Complete Python Basics Course</p>
+        </div>
+
+        <div class="progress-item">
+            <h3>Web Development</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 50%;"></div>
+            </div>
+            <p>Progress: 50% - Goal: Finish HTML & CSS Certification</p>
+        </div>
+
+        <div class="progress-item">
+            <h3>Data Science</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 30%;"></div>
+            </div>
+            <p>Progress: 30% - Goal: Complete Introduction to Data Science</p>
+        </div>
+    </section>
+
+    <section class="quote-section">
+        <h2>Motivational Quote</h2>
+        <p>"Education is the most powerful weapon which you can use to change the world." – Nelson Mandela</p>
+    </section>
+
+    <footer>
+        <a href="index.html">Back to Home</a>
+    </footer>
+</body>
+</html>
